@@ -3,7 +3,7 @@
 A complete machine learning pipeline that classifies whether a patient has **Chronic Kidney Disease (CKD)** based on clinical and laboratory attributes, built on the UCI Machine Learning Repository's CKD dataset.
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-green)
 
 ---
 
