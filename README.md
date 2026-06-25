@@ -4,11 +4,10 @@ A complete machine learning pipeline that classifies whether a patient has **Chr
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## 📋 Overview
+## Overview
 
 Chronic Kidney Disease is a progressive condition in which kidney function declines over a period of 3 months or more, often going undiagnosed until later stages because early symptoms (fatigue, swelling, reduced urine output) are subtle. This project builds a **binary classification model** that predicts CKD presence from 24 clinical attributes, enabling earlier detection and intervention.
 
@@ -17,7 +16,7 @@ Chronic Kidney Disease is a progressive condition in which kidney function decli
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [UCI Machine Learning Repository — Chronic Kidney Disease Dataset](https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease) (mirrored on [Kaggle](https://www.kaggle.com/datasets/akshayksingh/kidney-disease-dataset))
 - **Records:** 400 patients
@@ -41,7 +40,7 @@ Chronic Kidney Disease is a progressive condition in which kidney function decli
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 CKD-Prediction-Using-Machine-Learning/
@@ -75,7 +74,7 @@ CKD-Prediction-Using-Machine-Learning/
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ```
 Dataset Collection → Data Cleaning → Preprocessing → EDA →
@@ -97,7 +96,7 @@ Model Evaluation → Cross-Validation → Best Model Selection → Save Model
 
 ---
 
-## 🏆 Results
+## Results
 
 | Model | Accuracy | Precision | Recall | F1-Score | Specificity | AUC-ROC |
 |---|---|---|---|---|---|---|
@@ -116,7 +115,7 @@ Three models (Random Forest, Logistic Regression, KNN) tied at a perfect test-se
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 # Clone the repository
@@ -144,7 +143,7 @@ with open('models/final_model.pkl', 'rb') as f:
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 - Validate on larger, real-world multi-hospital datasets
 - Explore deep learning architectures (e.g., feed-forward neural nets, TabNet)
@@ -154,14 +153,8 @@ with open('models/final_model.pkl', 'rb') as f:
 
 ---
 
-## 📚 References
+## References
 
 1. UCI Machine Learning Repository — Chronic Kidney Disease Dataset
 2. Kaggle — [Kidney Disease Dataset](https://www.kaggle.com/datasets/akshayksingh/kidney-disease-dataset)
 3. Scikit-learn Documentation — https://scikit-learn.org/
-
----
-
-## 📄 License
-
-This project is released under the MIT License for educational and certification purposes.
